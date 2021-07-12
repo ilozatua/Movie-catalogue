@@ -1,0 +1,36 @@
+.middle {
+  background-image: url("/assets/images/searchfilms.jpg");
+  background-size: cover;
+  padding: 240px !important;
+}
+
+main {
+  height: calc(100% - 60px);
+}
+
+.search-form {
+  max-width: 400px;
+}
+.container {
+  max-width: 900px !important;
+}
+
+.alert {
+  margin-bottom: 0px !important;
+}
+
+.badge {
+  cursor: pointer;
+}
+
+.poster {
+  width: 300px;
+}
+
+.flag {
+  width: 40px;
+}
+
+.moviePlot {
+  max-width: 700px;
+}

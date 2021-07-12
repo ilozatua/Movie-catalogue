@@ -1,0 +1,21 @@
+header div div a img {
+  width: 50px;
+}
+
+.lang {
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+
+  &.ka {
+    background: url("../../../assets/images/ka.svg");
+  }
+  &.en {
+    background: url("../../../assets/images/en.svg");
+  }
+
+  &.inactive {
+    filter: grayscale(100%);
+  }
+}

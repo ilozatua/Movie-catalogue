@@ -1,0 +1,25 @@
+<section class="container">
+  <div class="col">
+    <div class="card col-12 shadow-sm">
+      <div class="movie-poster d-flex justify-content-between">
+        <img [src]="item.movie.Poster" />
+        <div class="px-3 card-body">
+          <p class="h4">{{ item.movie.Title }}</p>
+          <p class="card-text">{{ item.movie.Plot }}</p>
+          <p>Rating: {{ item.data.rating }}/5</p>
+          <div class="align-items-center">
+            <div class="btn-group">
+              <button
+                (click)="goToDetails()"
+                type="button"
+                class="btn btn-outline-secondary btn-sm"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

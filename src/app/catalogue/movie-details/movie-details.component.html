@@ -1,0 +1,57 @@
+<div class="container d-flex flex-column align-items-center">
+  <h1 class="m-4 fs-1 text-primary">{{ "movie.MOVIE_DETAILS" | translate }}</h1>
+  <ng-container *ngIf="movieData$ | async as movieData">
+    <div><img [src]="movieData.Poster" /></div>
+    <div>
+      <h3 class="fs-2 m-3">{{ movieData.Title }}</h3>
+    </div>
+    <div class="d-flex flex-column align-items-center">
+      <b class="fs-4"> {{ "movie.ACTORS" | translate }}:</b>
+      <p>{{ movieData.Actors }}</p>
+    </div>
+    <div class="d-flex flex-column align-items-center">
+      <b class="fs-4">{{ "movie.GENRE" | translate }}:</b>
+      <p>{{ movieData.Genre }}</p>
+    </div>
+    <div class="d-flex flex-column align-items-center">
+      <b class="fs-4">{{ "movie.RELEASE_YEAR" | translate }}:</b>
+      <p>{{ movieData.Year }}</p>
+    </div>
+    <div class="d-flex align-items-center mb-3">
+      <b class="fs-4">{{ "movie.DIRECTOR" | translate }}:</b>
+      {{ movieData.Director }}
+    </div>
+    <div class="d-flex flex-column align-items-center mb-3">
+      <b class="fs-4">{{ "movie.PLOT" | translate }}:</b> {{ movieData.Plot }}
+    </div>
+    <div class="d-flex flex-column align-items-center mb-5">
+      <b class="fs-4">{{ "movie.COUNTRY" | translate }}:</b>
+      {{ movieData.Country }}
+    </div>
+  </ng-container>
+
+  <h3 class="fs-1 mb-3 text-primary">{{ "movie.MY_REVIEW" | translate }}</h3>
+  <ng-container *ngIf="storeData$ | async as storeData">
+    <div>
+      <b>{{ "movie.REVIEW" | translate }}: </b>{{ storeData.review }}
+    </div>
+    <div>
+      <b>{{ "movie.RATING" | translate }}: </b> {{ storeData.rating }}/5
+    </div>
+    <data *ngFor="let s of statusTranslate" [value]="s.value">
+      <div *ngIf="storeData.status === s.value">
+        <b>{{ "movie.STATUS" | translate }}: </b>{{ s.label | translate }}
+      </div>
+    </data>
+    <data *ngFor="let w of whenToWatch" [value]="w.value">
+      <div *ngIf="storeData.whenToWatch === w.value">
+        <b>{{ "movie.WHEN" | translate }}: </b>{{ w.label | translate }}
+      </div>
+    </data>
+  </ng-container>
+  <div class="m-4">
+    <button class="m-4" (click)="goBack()" class="btn btn-primary">
+      {{ "button.GO_BACK" | translate }}
+    </button>
+  </div>
+</div>

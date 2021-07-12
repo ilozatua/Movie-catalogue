@@ -1,0 +1,54 @@
+{
+  "TITLE": "Movie Catalogue",
+  "errors": {
+    "NOT_FOUND": "Page not found",
+    "ENTER_MOVIE_NAME": "You must enter movie name!"
+  },
+  "auth": {
+    "SIGN_IN": "Sign In",
+    "SIGN_UP": "Sign Up",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "REPEAT_PASSWORD": "Repeat Password",
+    "SIGN_OUT": "Sign Out"
+  },
+  "catalogue": {
+    "ADD_MOVIE": "Add Movie",
+    "ENTER_MOVIE_NAME": "Enter Movie Name...",
+    "SEARCH": "Search",
+    "WATCHED": "Watched",
+    "WATCH_LATER": "Watch Later",
+    "TOMORROW": "Tomorrow",
+    "THIS_WEEK": "This Week",
+    "THIS_MONTH": "This Month",
+    "THIS_YEAR": "This Year",
+    "SELECT": "Select...",
+    "MOVIE_HAS_BEEN_ADDED": "Movie has been added",
+    "WELCOME_TO_MOVIE_CATALOGUE": "Welcome to Movie Catalogue",
+    "ADD_FAVOURITE_MOVIES": "Add your favourite movies with rating and reviews"
+  },
+  "movie": {
+    "ACTORS": "Actors",
+    "GENRE": "Genre",
+    "RELEASE_YEAR": "Release Year",
+    "DIRECTOR": "Director",
+    "PLOT": "Plot",
+    "COUNTRY": "Country",
+    "MOVIE_DETAILS": "Movie Details",
+    "MY_REVIEW": "My Review",
+    "RATING": "Rating",
+    "REVIEW": "Review",
+    "STATUS": "Status",
+    "WHEN": "When",
+    "WHEN_TO_WATCH": "When To Watch",
+    "ADD": "Add"
+  },
+  "validate": {
+    "REVIEW_NEEDED": "Review Is Neccessary",
+    "MIN_TEN": "Minimum 10 Charachters",
+    "PLEASE_SELECT_WHEN": "Please Select When To Watch"
+  },
+  "button": {
+    "GO_BACK": "Go Back"
+  }
+}

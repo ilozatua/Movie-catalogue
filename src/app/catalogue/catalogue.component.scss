@@ -1,0 +1,21 @@
+.middle {
+  background-image: url("/assets/images/catalogue.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 200px !important;
+}
+
+.carousel-item {
+  height: 550px;
+  width: 100%;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}

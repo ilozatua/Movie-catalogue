@@ -1,0 +1,54 @@
+{
+  "TITLE": "ფილმების კატალოგი",
+  "errors": {
+    "NOT_FOUND": "გვერდი ვერ მოიძებნა",
+    "ENTER_MOVIE_NAME": "გთხოვთ მიუთითოთ ფილმის სახელი!"
+  },
+  "auth": {
+    "SIGN_IN": "შესვლა",
+    "SIGN_UP": "რეგისტრაცია",
+    "EMAIL": "ელ-ფოსტა",
+    "PASSWORD": "პაროლი",
+    "REPEAT_PASSWORD": "პაროლის გამეორება",
+    "SIGN_OUT": "გამოსვლა"
+  },
+  "catalogue": {
+    "ADD_MOVIE": "ფილმის დამატება",
+    "ENTER_MOVIE_NAME": "ჩაწერეთ ფილმის სახელი...",
+    "SEARCH": "ძებნა",
+    "WATCHED": "ნანახი",
+    "WATCH_LATER": "მოგვიანების სანახავი",
+    "TOMORROW": "ხვალ",
+    "THIS_WEEK": "ამ კვირას",
+    "THIS_MONTH": "ამ თვეს",
+    "THIS_YEAR": "ამ წელს",
+    "SELECT": "არჩევა...",
+    "MOVIE_HAS_BEEN_ADDED": "ფილმი დაემატა",
+    "WELCOME_TO_MOVIE_CATALOGUE": "მოგესალმებით ფილმების კატალოგიდან",
+    "ADD_FAVOURITE_MOVIES": "დაამატეთ საყვარელი ფილმი რეიტინგით და მიმოხილვით"
+  },
+  "movie": {
+    "ACTORS": "მსახიობები",
+    "GENRE": "ჟანრი",
+    "RELEASE_YEAR": "გამოშვების წელი",
+    "DIRECTOR": "დირექტორი",
+    "PLOT": "აღწერა",
+    "COUNTRY": "ქვეყანა",
+    "MOVIE_DETAILS": "ფილმის დეტალები",
+    "MY_REVIEW": "ჩემი მიმოხილვა",
+    "RATING": "რეიტინგი",
+    "REVIEW": "მიმოხილვა",
+    "STATUS": "სტატუსი",
+    "WHEN": "როდის",
+    "WHEN_TO_WATCH": "როდის",
+    "ADD": "დამატება"
+  },
+  "validate": {
+    "REVIEW_NEEDED": "რევიუ სავალდებულოა",
+    "MIN_TEN": "მინიმუმ 10 სიმბოლო",
+    "PLEASE_SELECT_WHEN": "გთხოვთ მონიშნოთ როდის გნებავთ ყურება"
+  },
+  "button": {
+    "GO_BACK": "უკან დაბრუნება"
+  }
+}
